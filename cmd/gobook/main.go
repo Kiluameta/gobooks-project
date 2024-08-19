@@ -6,6 +6,7 @@ import (
 
 	"github.com/Kiluameta/gobooks-project/internal/service"
 	"github.com/Kiluameta/gobooks-project/internal/web"
+	_ "github.com/mattn/go-sqlite3"
 )
 
 func main() {
